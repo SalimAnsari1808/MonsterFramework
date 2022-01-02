@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="1">
+	<listeners>
+		<listener class-name="com.monster.testNG.AnnotationTransformer" />
+	</listeners>
+  <test name="BAT1">
+    <classes>
+      <class name="com.monster.sampleTest.SampleTest3"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [SampleSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.monster.testNG.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="1" parallel="tests" name="BATTest1(failed)">
+    <parameter name="platform" value="Chrome"/>
+    <classes>
+      <class name="com.monster.sampleTest.SampleTest3">
+        <methods>
+          <include name="suiteSetup"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="cleanupSuite"/>
+          <include name="SampleTest3Method" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.monster.sampleTest.SampleTest3 -->
+    </classes>
+  </test> <!-- BATTest1(failed) -->
+</suite> <!-- Failed suite [SampleSuite] -->

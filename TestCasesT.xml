@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestCases" >
+	
+	<test name="Test1">
+		<parameter name="platform" value="NA"></parameter>
+		<classes>
+			<class name="com.monster.runner.SampleTest1" />
+		</classes>
+	</test>
+	<test name="Test2">
+		<parameter name="platform" value="NA"></parameter>
+		<classes>
+			<class name="com.monster.runner.SampleTest2" />
+		</classes>
+	</test>
+	<test name="Test3">
+		<parameter name="platform" value="NA"></parameter>
+		<classes>
+			<class name="com.monster.runner.SampleTest3" />
+		</classes>
+	</test>
+</suite> <!-- Suite -->

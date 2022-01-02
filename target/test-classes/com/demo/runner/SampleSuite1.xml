@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BATTestCase1" parallel="tests" thread-count="5">
+	<listeners>
+		<listener
+			class-name="com.demo.testNG.AnnotationTransformer" />
+	</listeners>
+
+	<!-- <test name="BAT1">
+		<parameter name="platform" value="Chrome"></parameter>
+		<classes>
+			<class name="com.demo.sampleTest.SampleTest1" />
+		</classes>
+	</test>
+
+	<test name="BAT2">
+		<parameter name="platform" value="Firefox"></parameter>
+		<classes>
+			<class name="com.demo.sampleTest.SampleTest1" />
+		</classes>
+	</test>
+
+	
+	
+	<test name="BAT5">
+		<parameter name="platform" value="chrome"></parameter>
+		<classes>
+			<class name="com.demo.sampleTest.SampleTest1" />
+		</classes>
+	</test> -->
+
+	<test name="BAT3">
+		<parameter name="platform" value="Android"></parameter>
+		<classes>
+			<class name="com.demo.sampleTest.SampleTest2" />
+		</classes>
+	</test>
+	
+	<test name="BAT4">
+		<parameter name="platform" value="Android"></parameter>
+		<classes>
+			<class name="com.demo.sampleTest.SampleTest2" />
+		</classes>
+	</test> 
+
+</suite> <!-- Suite -->

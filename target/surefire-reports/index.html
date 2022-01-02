@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-BAT" class="navigator-link">
+              <span class="suite-name border-skipped">BAT</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-BAT" class="navigator-link ">
+                    <span>C:\Users\saansari\eclipse-workspace\MonsterAutomationFramework\src\test\java\com\monster\runner\SampleSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-BAT" class="navigator-link ">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-BAT" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-BAT" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-BAT" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-BAT" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-BAT" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods,  6 skipped,  </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-BAT" class="hide-methods skipped suite-BAT"> (hide)</a> <!-- hide-methods skipped suite-BAT -->
+                      <a href="#" panel-name="suite-BAT" class="show-methods skipped suite-BAT"> (show)</a> <!-- show-methods skipped suite-BAT -->
+                    </span>
+                    <div class="method-list-content skipped suite-BAT">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-BAT" title="com.monster.sampleTest.SampleTest1" class="method navigator-link" hash-for-method="SampleTest1Method">SampleTest1Method</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-BAT" title="com.monster.sampleTest.SampleTest1" class="method navigator-link" hash-for-method="SampleTest1Method(Firefox)">SampleTest1Method(Firefox)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-BAT" title="com.monster.sampleTest.SampleTest2" class="method navigator-link" hash-for-method="SampleTest2Method">SampleTest2Method</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-BAT" title="com.monster.sampleTest.SampleTest2" class="method navigator-link" hash-for-method="SampleTest2Method(chrome)">SampleTest2Method(chrome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-BAT" title="com.monster.sampleTest.SampleTest3" class="method navigator-link" hash-for-method="SampleTest3Method(InternetExplorer)">SampleTest3Method(InternetExplorer)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-BAT" title="com.monster.sampleTest.SampleTest3" class="method navigator-link" hash-for-method="SampleTest3Method">SampleTest3Method</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-BAT -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BAT" class="panel BAT">
+          <div class="suite-BAT-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.monster.sampleTest.SampleTest1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SampleTest1Method">
+                  </a> <!-- SampleTest1Method -->
+                  <span class="method-name">SampleTest1Method</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.monster.baseClass.BaseClass.tearDown(BaseClass.java:127)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SampleTest1Method(Firefox)">
+                  </a> <!-- SampleTest1Method(Firefox) -->
+                  <span class="method-name">SampleTest1Method</span>
+                  <span class="parameters">(Firefox)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+	at java.base/java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.setWebDriver(WebDriverThreadLocalContainer.java:74)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.setWebDriver(WebDriverThreadLocalContainer.java:53)
+	at com.codeborne.selenide.WebDriverRunner.setWebDriver(WebDriverRunner.java:61)
+	at com.monster.baseClass.BaseClass.openBrowser(BaseClass.java:69)
+	at com.monster.sampleTest.SampleTest1.SampleTest1Method(SampleTest1.java:36)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BAT-class-skipped -->
+          <div class="suite-BAT-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.monster.sampleTest.SampleTest2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SampleTest2Method">
+                  </a> <!-- SampleTest2Method -->
+                  <span class="method-name">SampleTest2Method</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.monster.baseClass.BaseClass.tearDown(BaseClass.java:127)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SampleTest2Method(chrome)">
+                  </a> <!-- SampleTest2Method(chrome) -->
+                  <span class="method-name">SampleTest2Method</span>
+                  <span class="parameters">(chrome)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+	at java.base/java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.setWebDriver(WebDriverThreadLocalContainer.java:74)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.setWebDriver(WebDriverThreadLocalContainer.java:53)
+	at com.codeborne.selenide.WebDriverRunner.setWebDriver(WebDriverRunner.java:61)
+	at com.monster.baseClass.BaseClass.openBrowser(BaseClass.java:69)
+	at com.monster.sampleTest.SampleTest2.SampleTest2Method(SampleTest2.java:38)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BAT-class-skipped -->
+          <div class="suite-BAT-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.monster.sampleTest.SampleTest3</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SampleTest3Method(InternetExplorer)">
+                  </a> <!-- SampleTest3Method(InternetExplorer) -->
+                  <span class="method-name">SampleTest3Method</span>
+                  <span class="parameters">(InternetExplorer)</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+	at java.base/java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.setWebDriver(WebDriverThreadLocalContainer.java:74)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.setWebDriver(WebDriverThreadLocalContainer.java:53)
+	at com.codeborne.selenide.WebDriverRunner.setWebDriver(WebDriverRunner.java:61)
+	at com.monster.baseClass.BaseClass.openBrowser(BaseClass.java:69)
+	at com.monster.sampleTest.SampleTest3.SampleTest3Method(SampleTest3.java:39)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 16 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="SampleTest3Method">
+                  </a> <!-- SampleTest3Method -->
+                  <span class="method-name">SampleTest3Method</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.monster.baseClass.BaseClass.tearDown(BaseClass.java:127)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BAT-class-skipped -->
+        </div> <!-- panel BAT -->
+        <div panel-name="test-xml-BAT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\saansari\eclipse-workspace\MonsterAutomationFramework\src\test\java\com\monster\runner\SampleSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;BAT&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.monster.testNG.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;BAT1&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.monster.sampleTest.SampleTest1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BAT1 --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;BAT2&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.monster.sampleTest.SampleTest2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BAT2 --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;BAT3&quot; verbose=&quot;0&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;InternetExplorer&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.monster.sampleTest.SampleTest3&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BAT3 --&gt;
+&lt;/suite&gt; &lt;!-- BAT --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BAT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BAT</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">BAT1 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BAT2 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BAT3 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BAT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BAT</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BAT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BAT</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BAT');
+function tableData_BAT() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SampleTest2Method')
+data.setCell(0, 2, 'com.monster.sampleTest.SampleTest2')
+data.setCell(0, 3, 96);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SampleTest1Method')
+data.setCell(1, 2, 'com.monster.sampleTest.SampleTest1')
+data.setCell(1, 3, 78);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'SampleTest3Method')
+data.setCell(2, 2, 'com.monster.sampleTest.SampleTest3')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'SampleTest1Method')
+data.setCell(3, 2, 'com.monster.sampleTest.SampleTest1')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'SampleTest3Method')
+data.setCell(4, 2, 'com.monster.sampleTest.SampleTest3')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'SampleTest2Method')
+data.setCell(5, 2, 'com.monster.sampleTest.SampleTest2')
+data.setCell(5, 3, 0);
+window.suiteTableData['BAT']= { tableData: data, tableDiv: 'times-div-BAT'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 175 ms</span>
+              <div id="times-div-BAT">
+              </div> <!-- times-div-BAT -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BAT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BAT</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BAT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BAT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.monster.sampleTest.SampleTest3</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">suiteSetup(org.testng.TestRunner@6bd35d1b)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.monster.sampleTest.SampleTest2</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name=SampleTest2Method status=SKIP method=SampleTest2.SampleTest2Method(java.lang.String...)</span>
+                <span class="method-start">577 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.monster.sampleTest.SampleTest1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name=SampleTest1Method status=SKIP method=SampleTest1.SampleTest1Method(java.lang.String...)</span>
+                <span class="method-start">581 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.monster.sampleTest.SampleTest2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SampleTest2Method(chrome)</span>
+                <span class="method-start">599 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.monster.sampleTest.SampleTest1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SampleTest1Method(Firefox)</span>
+                <span class="method-start">600 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown([TestResult name=SampleTest1Method status=SKIP method=SampleTest1.SampleTest1Method(java.lang.String...)</span>
+                <span class="method-start">682 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.monster.sampleTest.SampleTest2</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown([TestResult name=SampleTest2Method status=SKIP method=SampleTest2.SampleTest2Method(java.lang.String...)</span>
+                <span class="method-start">696 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=SampleTest2.SampleTest2Method(java.lang.String)[pri:0,...)</span>
+                <span class="method-start">710 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown([TestResult name={null} status=CREATED method=SampleTest2.SampleTest2Method(java.lang.String)[pri:0,...)</span>
+                <span class="method-start">713 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.monster.sampleTest.SampleTest1</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=SampleTest1.SampleTest1Method(java.lang.String)[pri:0,...)</span>
+                <span class="method-start">721 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown([TestResult name={null} status=CREATED method=SampleTest1.SampleTest1Method(java.lang.String)[pri:0,...)</span>
+                <span class="method-start">722 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.monster.sampleTest.SampleTest3</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name=SampleTest3Method status=SKIP method=SampleTest3.SampleTest3Method(java.lang.String...)</span>
+                <span class="method-start">851 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">SampleTest3Method(InternetExplorer)</span>
+                <span class="method-start">851 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown([TestResult name=SampleTest3Method status=SKIP method=SampleTest3.SampleTest3Method(java.lang.String...)</span>
+                <span class="method-start">852 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name={null} status=CREATED method=SampleTest3.SampleTest3Method(java.lang.String)[pri:0,...)</span>
+                <span class="method-start">853 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown([TestResult name={null} status=CREATED method=SampleTest3.SampleTest3Method(java.lang.String)[pri:0,...)</span>
+                <span class="method-start">854 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">cleanupSuite(org.testng.TestRunner@6bd35d1b)</span>
+                <span class="method-start">899 ms</span>
+              </div> <!-- configuration-suite after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.monster.sampleTest.SampleTest2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SampleTest2Method</span>
+                <span class="method-start">-1579514183703 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.monster.sampleTest.SampleTest1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SampleTest1Method</span>
+                <span class="method-start">-1579514183703 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.monster.sampleTest.SampleTest3</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">SampleTest3Method</span>
+                <span class="method-start">-1579514183703 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

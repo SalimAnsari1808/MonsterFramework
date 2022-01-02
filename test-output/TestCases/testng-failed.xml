@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestCases]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test1(failed)">
+    <parameter name="platform" value="NA"/>
+    <classes>
+      <class name="com.monster.runner.SampleTest1">
+        <methods>
+          <include name="suiteSetup"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="SampleTest1Method" invocation-numbers="0"/>
+          <include name="cleanupSuite"/>
+        </methods>
+      </class> <!-- com.monster.runner.SampleTest1 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="platform" value="NA"/>
+    <classes>
+      <class name="com.monster.runner.SampleTest2">
+        <methods>
+          <include name="suiteSetup"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="cleanupSuite"/>
+          <include name="SampleTest2Method" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.monster.runner.SampleTest2 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [TestCases] -->

@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-BATTestCase1">
+              <span class="suite-name border-failed">BATTestCase1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-BATTestCase1">
+                    <span>D:\SpiritWorkSpaces\WorkSpace16Oct19\MonsterAutomationFramework\src\test\java\com\demo\runner\SampleSuite1.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-BATTestCase1">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-BATTestCase1">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-BATTestCase1">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-BATTestCase1">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-BATTestCase1">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-BATTestCase1">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods, 1 failed,   1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-BATTestCase1" class="hide-methods failed suite-BATTestCase1"> (hide)</a> <!-- hide-methods failed suite-BATTestCase1 -->
+                      <a href="#" panel-name="suite-BATTestCase1" class="show-methods failed suite-BATTestCase1"> (show)</a> <!-- show-methods failed suite-BATTestCase1 -->
+                    </span>
+                    <div class="method-list-content failed suite-BATTestCase1">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BATTestCase1" title="com.demo.sampleTest.SampleTest2" hash-for-method="SampleTest2Method(Android)">SampleTest2Method(Android)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-BATTestCase1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BATTestCase1" class="hide-methods passed suite-BATTestCase1"> (hide)</a> <!-- hide-methods passed suite-BATTestCase1 -->
+                      <a href="#" panel-name="suite-BATTestCase1" class="show-methods passed suite-BATTestCase1"> (show)</a> <!-- show-methods passed suite-BATTestCase1 -->
+                    </span>
+                    <div class="method-list-content passed suite-BATTestCase1">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-BATTestCase1" title="com.demo.sampleTest.SampleTest2" hash-for-method="SampleTest2Method(Android)">SampleTest2Method(Android)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BATTestCase1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BATTestCase1" class="panel BATTestCase1">
+          <div class="suite-BATTestCase1-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.demo.sampleTest.SampleTest2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SampleTest2Method(Android)">
+                  </a> <!-- SampleTest2Method(Android) -->
+                  <span class="method-name">SampleTest2Method</span>
+                  <span class="parameters">(Android)</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.demo.uility.ValidationUtil.validateTestStep(ValidationUtil.java:27)
+	at com.demo.managers.WebPageDriverManager.createRemoteDriver(WebPageDriverManager.java:179)
+	at com.demo.managers.WebPageDriverManager.createNewDriver(WebPageDriverManager.java:81)
+	at com.demo.managers.WebPageDriverManager.getDriver(WebPageDriverManager.java:59)
+	at com.demo.baseClass.BaseClass.openBrowser(BaseClass.java:68)
+	at com.demo.sampleTest.SampleTest2.SampleTest2Method(SampleTest2.java:35)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BATTestCase1-class-failed -->
+          <div class="suite-BATTestCase1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.demo.sampleTest.SampleTest2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="SampleTest2Method(Android)">
+                  </a> <!-- SampleTest2Method(Android) -->
+                  <span class="method-name">SampleTest2Method</span>
+                  <span class="parameters">(Android)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BATTestCase1-class-passed -->
+        </div> <!-- panel BATTestCase1 -->
+        <div panel-name="test-xml-BATTestCase1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\SpiritWorkSpaces\WorkSpace16Oct19\MonsterAutomationFramework\src\test\java\com\demo\runner\SampleSuite1.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;BATTestCase1&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.demo.testNG.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;BAT3&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Android&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.demo.sampleTest.SampleTest2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BAT3 --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;BAT4&quot; parallel=&quot;tests&quot;&gt;
+    &lt;parameter name=&quot;platform&quot; value=&quot;Android&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.demo.sampleTest.SampleTest2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- BAT4 --&gt;
+&lt;/suite&gt; &lt;!-- BATTestCase1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BATTestCase1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BATTestCase1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">BAT3 (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">BAT4 (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BATTestCase1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BATTestCase1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BATTestCase1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BATTestCase1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BATTestCase1');
+function tableData_BATTestCase1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'SampleTest2Method')
+data.setCell(0, 2, 'com.demo.sampleTest.SampleTest2')
+data.setCell(0, 3, 61359);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'SampleTest2Method')
+data.setCell(1, 2, 'com.demo.sampleTest.SampleTest2')
+data.setCell(1, 3, 9453);
+window.suiteTableData['BATTestCase1']= { tableData: data, tableDiv: 'times-div-BATTestCase1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-BATTestCase1">
+              </div> <!-- times-div-BATTestCase1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BATTestCase1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BATTestCase1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BATTestCase1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BATTestCase1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.demo.sampleTest.SampleTest2</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">suiteSetup(org.testng.TestRunner@6d474680)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name=SampleTest2Method status=FAILURE method=SampleTest2.SampleTest2Method(java.lang.Str...)</span>
+                <span class="method-start">119 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup([TestResult name=SampleTest2Method status=SUCCESS method=SampleTest2.SampleTest2Method(java.lang.Str...)</span>
+                <span class="method-start">119 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SampleTest2Method(Android)</span>
+                <span class="method-start">123 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">SampleTest2Method(Android)</span>
+                <span class="method-start">123 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown([TestResult name=SampleTest2Method status=FAILURE method=SampleTest2.SampleTest2Method(java.lang.Str...)</span>
+                <span class="method-start">9579 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown([TestResult name=SampleTest2Method status=SUCCESS method=SampleTest2.SampleTest2Method(java.lang.Str...)</span>
+                <span class="method-start">61485 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">cleanupSuite(org.testng.TestRunner@6d474680)</span>
+                <span class="method-start">63611 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="2.72" tests="12" errors="0" skipped="6" failures="6">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.5+10"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.5.10-hotspot\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\saansari\eclipse-workspace\MonsterAutomationFramework"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\saansari\eclipse-workspace\MonsterAutomationFramework"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.5+10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Temp\6\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows Server 2012 R2"/>
+    <property name="classworlds.conf" value="C:\Users\saansari\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf13566182016212634605.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.5.10-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/AdoptOpenJDK/jdk-11.0.5.10-hotspot/bin/client;C:/Program Files/AdoptOpenJDK/jdk-11.0.5.10-hotspot/bin;C:\Program Files\AdoptOpenJDK\jdk-11.0.5.10-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Perforce\;C:\Users\saansari\Desktop;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\saansari"/>
+    <property name="user.timezone" value="GMT-05:00"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="saansari"/>
+    <property name="java.class.path" value="C:\Users\saansari\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.13.0.20190716-1623\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.5.10-hotspot"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.5"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="maven.home" value="C:\Users\saansari\eclipse-workspace\MonsterAutomationFramework\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-build/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="SampleTest1Method" classname="com.monster.sampleTest.SampleTest1" time="0">
+    <skipped/>
+    <system-out><![CDATA[This is the start of Suite BAT
+Start of Before Method
+Start of Before Method
+Going to retry test case: SampleTest1.SampleTest1Method(java.lang.String)[pri:0, instance:com.monster.sampleTest.SampleTest1@71d44a3], 1 out of 2
+]]></system-out>
+  </testcase>
+  <testcase name="SampleTest1Method" classname="com.monster.sampleTest.SampleTest1" time="0">
+    <skipped/>
+    <system-out><![CDATA[Start of Before Method
+]]></system-out>
+  </testcase>
+  <testcase name="SampleTest2Method" classname="com.monster.sampleTest.SampleTest2" time="0">
+    <skipped/>
+    <system-out><![CDATA[Start of After Method
+Going to retry test case: SampleTest2.SampleTest2Method(java.lang.String)[pri:0, instance:com.monster.sampleTest.SampleTest2@3c41ed1d], 1 out of 2
+]]></system-out>
+  </testcase>
+  <testcase name="SampleTest2Method" classname="com.monster.sampleTest.SampleTest2" time="0">
+    <skipped/>
+    <system-out><![CDATA[Start of Before Method
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="com.monster.sampleTest.SampleTest1" time="0.129">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+    <system-out><![CDATA[Start of After Method
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="com.monster.sampleTest.SampleTest1" time="0.13">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+    <system-out><![CDATA[Start of After Method
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="com.monster.sampleTest.SampleTest2" time="0.129">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+  </testcase>
+  <testcase name="tearDown" classname="com.monster.sampleTest.SampleTest2" time="0.129">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+    <system-out><![CDATA[Start of After Method
+]]></system-out>
+  </testcase>
+  <testcase name="SampleTest3Method" classname="com.monster.sampleTest.SampleTest3" time="0">
+    <skipped/>
+    <system-out><![CDATA[Start of Before Method
+Going to retry test case: SampleTest3.SampleTest3Method(java.lang.String)[pri:0, instance:com.monster.sampleTest.SampleTest3@327514f], 1 out of 2
+]]></system-out>
+  </testcase>
+  <testcase name="SampleTest3Method" classname="com.monster.sampleTest.SampleTest3" time="0">
+    <skipped/>
+    <system-out><![CDATA[Start of Before Method
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="com.monster.sampleTest.SampleTest3" time="0.012">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+    <system-out><![CDATA[Start of After Method
+]]></system-out>
+  </testcase>
+  <testcase name="tearDown" classname="com.monster.sampleTest.SampleTest3" time="0.019">
+    <failure type="java.lang.NullPointerException">java.lang.NullPointerException
+</failure>
+    <system-out><![CDATA[Start of After Method
+]]></system-out>
+  </testcase>
+</testsuite>

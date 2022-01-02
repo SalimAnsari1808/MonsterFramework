@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">BAT</th></tr>
+<tr><td><a href="#t0">BAT1</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">178</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">BAT3</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">5</td><td></td><td></td></tr>
+<tr><td><a href="#t2">BAT2</a></td><td class="num">0</td><td class="num attn">2</td><td class="num">0</td><td class="num">171</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">0</th><th class="num attn">6</th><th class="num">0</th><th class="num">354</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">BAT</th></tr></tbody><tbody id="t0"><tr><th colspan="4">BAT1 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="2">com.monster.sampleTest.SampleTest1</td><td><a href="#m0">tearDown</a></td><td rowspan="2">1579514184385</td><td rowspan="2">0</td></tr><tr class="failedeven"><td><a href="#m1">tearDown</a></td></tr><tr><th colspan="4">BAT1 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.monster.sampleTest.SampleTest1</td><td><a href="#m2">SampleTest1Method</a></td><td rowspan="2">1579514184425</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m3">SampleTest1Method</a></td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">BAT3 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="2">com.monster.sampleTest.SampleTest3</td><td><a href="#m4">tearDown</a></td><td rowspan="2">1579514184557</td><td rowspan="2">0</td></tr><tr class="failedeven"><td><a href="#m5">tearDown</a></td></tr><tr><th colspan="4">BAT3 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.monster.sampleTest.SampleTest3</td><td><a href="#m6">SampleTest3Method</a></td><td rowspan="2">1579514184554</td><td rowspan="2">1</td></tr><tr class="skippedeven"><td><a href="#m7">SampleTest3Method</a></td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">BAT2 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="2">com.monster.sampleTest.SampleTest2</td><td><a href="#m8">tearDown</a></td><td rowspan="2">1579514184416</td><td rowspan="2">0</td></tr><tr class="failedeven"><td><a href="#m9">tearDown</a></td></tr><tr><th colspan="4">BAT2 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="2">com.monster.sampleTest.SampleTest2</td><td><a href="#m10">SampleTest2Method</a></td><td rowspan="2">1579514184416</td><td rowspan="2">0</td></tr><tr class="skippedeven"><td><a href="#m11">SampleTest2Method</a></td></tr></tbody>
+</table>
+<h2>BAT1</h2><h3 id="m0">com.monster.sampleTest.SampleTest1#tearDown</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>[TestResult name=SampleTest1Method status=SKIP method=SampleTest1.SampleTest1Method(java.lang.String)[pri:0, instance:com.monster.sampleTest.SampleTest1@71d44a3] output={null}]</td><td>org.testng.TestRunner@6bb9ff36</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at com.monster.baseClass.BaseClass.tearDown(BaseClass.java:127)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.monster.sampleTest.SampleTest1#tearDown</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>[TestResult name={null} status=CREATED method=SampleTest1.SampleTest1Method(java.lang.String)[pri:0, instance:com.monster.sampleTest.SampleTest1@71d44a3] output={null}]</td><td>org.testng.TestRunner@6bb9ff36</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at com.monster.baseClass.BaseClass.tearDown(BaseClass.java:127)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.monster.sampleTest.SampleTest1#SampleTest1Method</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.monster.baseClass.BaseClass.tearDown(BaseClass.java:127)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.monster.sampleTest.SampleTest1#SampleTest1Method</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>Firefox</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+	at java.base/java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.setWebDriver(WebDriverThreadLocalContainer.java:74)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.setWebDriver(WebDriverThreadLocalContainer.java:53)
+	at com.codeborne.selenide.WebDriverRunner.setWebDriver(WebDriverRunner.java:61)
+	at com.monster.baseClass.BaseClass.openBrowser(BaseClass.java:69)
+	at com.monster.sampleTest.SampleTest1.SampleTest1Method(SampleTest1.java:36)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>BAT3</h2><h3 id="m4">com.monster.sampleTest.SampleTest3#tearDown</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>[TestResult name={null} status=CREATED method=SampleTest3.SampleTest3Method(java.lang.String)[pri:0, instance:com.monster.sampleTest.SampleTest3@327514f] output={null}]</td><td>org.testng.TestRunner@6bd35d1b</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at com.monster.baseClass.BaseClass.tearDown(BaseClass.java:127)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.monster.sampleTest.SampleTest3#tearDown</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>[TestResult name=SampleTest3Method status=SKIP method=SampleTest3.SampleTest3Method(java.lang.String)[pri:0, instance:com.monster.sampleTest.SampleTest3@327514f] output={null}]</td><td>org.testng.TestRunner@6bd35d1b</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at com.monster.baseClass.BaseClass.tearDown(BaseClass.java:127)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.monster.sampleTest.SampleTest3#SampleTest3Method</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>InternetExplorer</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+	at java.base/java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.setWebDriver(WebDriverThreadLocalContainer.java:74)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.setWebDriver(WebDriverThreadLocalContainer.java:53)
+	at com.codeborne.selenide.WebDriverRunner.setWebDriver(WebDriverRunner.java:61)
+	at com.monster.baseClass.BaseClass.openBrowser(BaseClass.java:69)
+	at com.monster.sampleTest.SampleTest3.SampleTest3Method(SampleTest3.java:39)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.monster.sampleTest.SampleTest3#SampleTest3Method</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.monster.baseClass.BaseClass.tearDown(BaseClass.java:127)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>BAT2</h2><h3 id="m8">com.monster.sampleTest.SampleTest2#tearDown</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>[TestResult name={null} status=CREATED method=SampleTest2.SampleTest2Method(java.lang.String)[pri:0, instance:com.monster.sampleTest.SampleTest2@3c41ed1d] output={null}]</td><td>org.testng.TestRunner@7ba754b2</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at com.monster.baseClass.BaseClass.tearDown(BaseClass.java:127)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.monster.sampleTest.SampleTest2#tearDown</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>[TestResult name=SampleTest2Method status=SKIP method=SampleTest2.SampleTest2Method(java.lang.String)[pri:0, instance:com.monster.sampleTest.SampleTest2@3c41ed1d] output={null}]</td><td>org.testng.TestRunner@7ba754b2</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.NullPointerException
+	at com.monster.baseClass.BaseClass.tearDown(BaseClass.java:127)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.monster.sampleTest.SampleTest2#SampleTest2Method</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at com.monster.baseClass.BaseClass.tearDown(BaseClass.java:127)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 19 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.monster.sampleTest.SampleTest2#SampleTest2Method</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at java.base/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1011)
+	at java.base/java.util.concurrent.ConcurrentHashMap.put(ConcurrentHashMap.java:1006)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.setWebDriver(WebDriverThreadLocalContainer.java:74)
+	at com.codeborne.selenide.impl.WebDriverThreadLocalContainer.setWebDriver(WebDriverThreadLocalContainer.java:53)
+	at com.codeborne.selenide.WebDriverRunner.setWebDriver(WebDriverRunner.java:61)
+	at com.monster.baseClass.BaseClass.openBrowser(BaseClass.java:69)
+	at com.monster.sampleTest.SampleTest2.SampleTest2Method(SampleTest2.java:38)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+... Removed 16 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
